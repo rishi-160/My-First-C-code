@@ -1,31 +1,3 @@
-// #include <stdio.h>
-
-// int main() {
-//     float principal, rate, balance;
-//     int years, i;
-
-//     printf("Enter principal amount: ");
-//     scanf("%f", &principal);
-
-//     printf("Enter yearly interest rate (in %%): ");
-//     scanf("%f", &rate);
-
-//     printf("Enter number of years: ");
-//     scanf("%d", &years);
-
-//     balance = principal;
-
-//     for (i = 1; i <= years; i++) {
-//         float interest = balance * rate / 100;
-//         balance = balance + interest;
-//         printf("Year %d: Balance = %.2If\n", i, balance);
-//     }
-
-//     printf("\nFinal balance after %d years = %.2f\n", years, balance);
-
-//     return 0;
-// }
-
 #include <stdio.h>
 
 int main() {
